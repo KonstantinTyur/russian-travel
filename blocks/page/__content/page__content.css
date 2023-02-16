@@ -1,0 +1,27 @@
+.page__content {
+  padding: 0 0 92px;
+ }
+
+@media screen and (max-width: 1279px) {
+  .page__content {
+    padding: 0 0 92px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .page__content {
+    padding: 0 0 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__content {
+    padding: 0 0 64px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .page__content {
+    padding: 0 0 64px;
+  }
+}

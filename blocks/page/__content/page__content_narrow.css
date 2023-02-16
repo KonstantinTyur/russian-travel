@@ -1,0 +1,20 @@
+.page__content_narrow {
+  padding: 0 0 92px;
+}
+
+@media screen and (max-width: 1023px) {
+  .page__content_narrow {
+  padding: 0 0 92px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .page__content_narrow {
+  padding: 0 0 88px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .page__content_narrow {
+  padding: 0 0 64px;
+  }
+}
+

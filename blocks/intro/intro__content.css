@@ -1,0 +1,9 @@
+.intro__content {
+
+  display: flex;
+  flex-direction: column;
+ /* flex-wrap: wrap;*/
+  width: 100%;
+  box-sizing: border-box;
+
+}
