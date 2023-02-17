@@ -51,3 +51,17 @@
 @import url(../blocks/photo-grid/__content/photo-grid__content.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
+/*------------- places --------------*/
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__item/place__item.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__website-text/place__website-text.css);
+@import url(../blocks/place/__website-link/place__website-link.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraph/place__description.css);
+@import url(../blocks/place/__paragraph-text/place__paragraph.css);
+
+
+
