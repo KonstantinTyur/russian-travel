@@ -4,10 +4,10 @@
 /*------------- page --------------*/
 
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/__header/page__header.css);
+/*@import url(../blocks/page/__header/page__header.css);*/
 @import url(../blocks/page/__container/page__container.css);
 /*@import url(../blocks/page/__content/page__content.css);*/
-@import url(../blocks/page/__content/page__content_narrow.css);
+/*@import url(../blocks/page/__content/page__content_narrow.css);*/
 
 /*------------- section --------------*/
 @import url(../blocks/section/section.css);
