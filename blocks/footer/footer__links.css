@@ -4,13 +4,13 @@
   display: grid;
   grid-template-columns: repeat(5, min-content);
   gap: 32px 18px;
+  list-style-type: none;
 
 }
 
 @media screen and (max-width: 767px) {
   .footer__links {
     grid-template-columns: repeat(1, min-content);
-    /*grid-auto-rows: min-content;*/
-    /*padding: 0 0 calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320)));*/
-  }
+
+   }
 }
