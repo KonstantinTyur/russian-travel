@@ -1,11 +1,10 @@
 .place__item {
     margin: 0 auto;
-    padding: 0 0 80px;
+    padding: 0;
     width: 100%;
     list-style: none;
     display: grid;
     grid-template-columns: min-content  minmax(min-content, 1fr);
-    /*grid-template-columns: 460px 1fr;*/
     grid-gap: 48px 40px;
     grid-template-areas:
         "title website"
@@ -20,9 +19,7 @@
 
 @media screen and (max-width: 1023px) {
   .place__item {
-    padding-bottom: 73px;
     column-gap: 28px;
-
   }
 }
 
@@ -34,8 +31,6 @@
     "website"
     "image"
     "description";
-
     row-gap: 32px;
-    padding-bottom: 50px;
   }
 }

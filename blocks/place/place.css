@@ -2,4 +2,18 @@
   margin: 0;
   padding: 0;
   width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 80px;
+}
+@media screen and (max-width: 1023px) {
+  .place {
+    padding-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    padding-bottom: 50px;
+  }
 }
