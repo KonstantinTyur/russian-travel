@@ -1,0 +1,9 @@
+.section__cover {
+  max-width: calc(100% - 48px*2);
+}
+
+@media screen and (max-width: 1279px) {
+  .section__cover {
+    max-width: 100%;
+  }
+}

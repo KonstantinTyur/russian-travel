@@ -1,0 +1,26 @@
+.cover__image {
+  /*display: flex;
+  position: absolute;
+  max-width: 100%;
+  /*min-height: 56.25%;
+  box-sizing: border-box;
+  object-fit: cover;
+  /* background-image: url(../../../images/cover-trains.jpg);
+  /*overflow: hidden;
+  z-index: -2;
+
+*/
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -2;
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+ /* object-position: 0 -16px;*/
+
+
+}
