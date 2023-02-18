@@ -74,3 +74,11 @@
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
 
+/*------------- footer --------------*/
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/footer__links.css);
+@import url(../blocks/footer/footer__link.css);
+@import url(../blocks/footer/footer__copyright.css);
+
+
