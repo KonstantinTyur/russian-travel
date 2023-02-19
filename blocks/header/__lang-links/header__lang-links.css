@@ -1,9 +1,17 @@
 .header__lang-links {
-  margin: 0;
+  margin: 18px 0 0;
   padding: 0;
   display: flex;
   justify-content: flex-end;
   align-items: end;
   column-gap: 18px;
   list-style-type: none;
+}
+
+
+
+@media screen and (max-width: 767px) {
+.header__lang-links {
+  margin: calc(9px + (18 - 9) * ((100vw - 320px) / (768 - 320))) 0 0;
+  }
 }

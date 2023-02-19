@@ -1,6 +1,4 @@
 .content {
-/*margin: 0 auto;
-padding: 0;*/
 display: grid;
 grid-template-columns: 1fr;
 gap: 92px;
@@ -20,6 +18,6 @@ grid-template-areas:
 
 @media screen and (max-width: 767px) {
   .content {
-    gap: 0 0 calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320)));
+    gap: calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320)));
   }
 }

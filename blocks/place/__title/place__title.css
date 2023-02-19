@@ -8,7 +8,6 @@
 }
 
 
-
 @media screen and (max-width: 1023px) {
   .place__title {
     font-size: calc(42px + (72 - 42) * ((100vw - 768px) / (1024 - 768)));;
@@ -16,12 +15,11 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .place__title {
     font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));
-    line-height: calc(64px + (46 - 35) * ((100vw - 320px) / (768 - 320)));
-    padding: 0 16px;
-    justify-self: center;
+    line-height: calc(35px + (46 - 35) * ((100vw - 320px) / (768 - 320)));
+    padding: 0 10px 0 16px ;
   }
 }
 
