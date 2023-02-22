@@ -1,0 +1,20 @@
+.place-list__description {
+  margin: 0;
+  padding: 0;
+  grid-area: description;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+
+@media screen and (max-width: 1023px) {
+  .place-list__description {
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place-list__description {
+    padding: 0 16px;
+  }
+}

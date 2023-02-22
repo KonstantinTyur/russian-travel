@@ -1,0 +1,13 @@
+.intro__content {
+
+  display: flex;
+  flex-direction: column;
+  max-width: 690px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .intro__content {
+    max-width: calc(720px + (690 - 720) * ((100vw - 768px) / (1024 - 768)));
+  }
+}
