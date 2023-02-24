@@ -1,4 +1,4 @@
-.place-list__website {
+.location__website {
   margin: 0;
   padding: 0;
   grid-area: website;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .place-list__website {
+  .location__website {
     margin: 0 16px;
   }
 }

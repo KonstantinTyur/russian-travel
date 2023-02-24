@@ -1,4 +1,4 @@
-.place-list__title {
+.location__title {
   grid-area: title;
   margin: 0;
   padding: 0;
@@ -7,20 +7,25 @@
   line-height: 76px;
 }
 
-
 @media screen and (max-width: 1023px) {
-  .place-list__title {
+  .location__title {
     font-size: calc(42px + (72 - 42) * ((100vw - 768px) / (1024 - 768)));
     line-height: calc(46px + (76 - 46) * ((100vw - 768px) / (1024 - 768)));
   }
 }
 
-@media screen and (max-width: 767px) {
-  .place-list__title {
+@media screen and (max-width: 768px) {
+  .location__title {
+    max-width: 330px;
     font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));
     line-height: calc(35px + (46 - 35) * ((100vw - 320px) / (768 - 320)));
+  }
+}
+@media screen and (max-width: 320px) {
+  .location__title {
     margin: 0 0 0 16px;
   }
 }
+
 
 
