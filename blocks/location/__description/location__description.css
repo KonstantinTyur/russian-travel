@@ -7,7 +7,7 @@
   gap: 27px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .location__description {
     gap: 25px;
   }

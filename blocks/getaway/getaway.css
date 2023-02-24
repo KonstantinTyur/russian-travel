@@ -1,4 +1,4 @@
-.intro__content {
+.getaway {
 
   display: flex;
   flex-direction: column;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .intro__content {
+  .getaway {
     max-width: calc(720px + (690 - 720) * ((100vw - 768px) / (1024 - 768)));
   }
 }

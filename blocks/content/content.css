@@ -12,13 +12,13 @@ grid-template-areas:
 
 
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .content {
     gap: calc(88px + (92 - 88) * ((100vw - 768px) / (1024 - 768)));
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .content {
     gap: calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320)));
   }
